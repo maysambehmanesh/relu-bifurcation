@@ -1,0 +1,32 @@
+
+datasets: [Cora, Citeseer, Pubmed]
+# datasets: [Texas, Wisconsin, Cornell, Film, Squirrel, Chameleon, Cora, Citeseer, Pubmed, Computers, Photo, CoauthorCS,]
+ 
+out_dir: results_BRELU
+
+# All model names
+model_names: ["ReLU-Poly(A)-sh","ReLU-Poly(A)-pl","Sine-Poly(A)-sh","Sine-Poly(A)-pl"]
+
+split:
+  use_public_split: false
+  train_ratio: 0.6
+  val_ratio: 0.2
+  test_ratio: 0.2
+
+model:
+  depth: 3
+  dropout: 0.0
+  w0: 1.0
+  poly_k: 3
+  hidden_dim: 64
+
+training:
+  epochs: 2000
+  patience: 200
+  val_every: 20
+  lr: 0.001
+  weight_decay: 5.0e-4
+
+experiment:
+  n_runs: 3
+  seeds: [0, 1, 2, 3, 4]

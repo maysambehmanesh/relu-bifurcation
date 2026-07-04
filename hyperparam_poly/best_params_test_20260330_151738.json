@@ -1,0 +1,176 @@
+{
+  "Texas": {
+    "Gelu-Poly(A)-sh": {
+      "val_acc": 0.898305078347524,
+      "test_acc": 0.9369369745254517,
+      "test_std": 0.012740655130055178,
+      "hp": {
+        "order": 2,
+        "poly_init": "laplacian",
+        "lr": 0.07874965531292737,
+        "weight_decay": 0.00022587093012937123,
+        "dropout": 0.5277347296555303,
+        "hidden_dim": 64,
+        "depth": 3
+      }
+    },
+    "Gelu-Poly(A)-pl": {
+      "val_acc": 0.8361581961313883,
+      "test_acc": 0.9369369745254517,
+      "test_std": 0.012740655130055178,
+      "hp": {
+        "order": 1,
+        "poly_init": "laplacian",
+        "lr": 0.0044961900205856544,
+        "weight_decay": 0.0009579387106832946,
+        "dropout": 0.5353863147625477,
+        "hidden_dim": 256,
+        "depth": 3
+      }
+    },
+    "Swish-Poly(A)-sh": {
+      "val_acc": 0.8757062156995138,
+      "test_acc": 0.9279279708862305,
+      "test_std": 0.012740655130055178,
+      "hp": {
+        "order": 2,
+        "poly_init": "laplacian",
+        "lr": 0.06278930749416033,
+        "weight_decay": 0.000699630881967467,
+        "dropout": 0.4139446109771754,
+        "hidden_dim": 64,
+        "depth": 4
+      }
+    },
+    "Swish-Poly(A)-pl": {
+      "val_acc": 0.8870056470235189,
+      "test_acc": 0.9279279708862305,
+      "test_std": 0.012740655130055178,
+      "hp": {
+        "order": 1,
+        "poly_init": "laplacian",
+        "lr": 0.03963213386788724,
+        "weight_decay": 3.3028207173848934e-05,
+        "dropout": 0.5026515350568719,
+        "hidden_dim": 64,
+        "depth": 4
+      }
+    }
+  },
+  "Wisconsin": {
+    "Gelu-Poly(A)-sh": {
+      "val_acc": 0.8666666746139526,
+      "test_acc": 0.8627451062202454,
+      "test_std": 0.016009735926681125,
+      "hp": {
+        "order": 1,
+        "poly_init": "laplacian",
+        "lr": 0.07029621154678116,
+        "weight_decay": 0.001397088583403398,
+        "dropout": 0.6930314388653588,
+        "hidden_dim": 128,
+        "depth": 3
+      }
+    },
+    "Gelu-Poly(A)-pl": {
+      "val_acc": 0.8416666785875956,
+      "test_acc": 0.8692810535430908,
+      "test_std": 0.00924322534692417,
+      "hp": {
+        "order": 1,
+        "poly_init": "laplacian",
+        "lr": 0.07860906687638547,
+        "weight_decay": 0.001201519179095917,
+        "dropout": 0.6072792946314608,
+        "hidden_dim": 32,
+        "depth": 4
+      }
+    },
+    "Swish-Poly(A)-sh": {
+      "val_acc": 0.837499996026357,
+      "test_acc": 0.843137264251709,
+      "test_std": 0.0,
+      "hp": {
+        "order": 2,
+        "poly_init": "laplacian",
+        "lr": 0.07821662064958469,
+        "weight_decay": 0.00042083446163116003,
+        "dropout": 0.23748888546467573,
+        "hidden_dim": 32,
+        "depth": 3
+      }
+    },
+    "Swish-Poly(A)-pl": {
+      "val_acc": 0.8458333412806193,
+      "test_acc": 0.8627451062202454,
+      "test_std": 0.016009735926681125,
+      "hp": {
+        "order": 1,
+        "poly_init": "laplacian",
+        "lr": 0.0570331837035512,
+        "weight_decay": 0.002052930647450516,
+        "dropout": 0.08550139540531312,
+        "hidden_dim": 32,
+        "depth": 2
+      }
+    }
+  },
+  "Cornell": {
+    "Gelu-Poly(A)-sh": {
+      "val_acc": 0.8531073530515035,
+      "test_acc": 0.792792797088623,
+      "test_std": 0.012740655130055178,
+      "hp": {
+        "order": 2,
+        "poly_init": "laplacian",
+        "lr": 0.0684875678025794,
+        "weight_decay": 0.00011337337637089986,
+        "dropout": 0.5388570188567009,
+        "hidden_dim": 32,
+        "depth": 2
+      }
+    },
+    "Gelu-Poly(A)-pl": {
+      "val_acc": 0.8022598624229431,
+      "test_acc": 0.837837835152944,
+      "test_std": 0.03822199348806454,
+      "hp": {
+        "order": 1,
+        "poly_init": "adjacency",
+        "lr": 0.04943349933141227,
+        "weight_decay": 0.0004651530700450706,
+        "dropout": 0.4382702264371853,
+        "hidden_dim": 64,
+        "depth": 2
+      }
+    },
+    "Swish-Poly(A)-sh": {
+      "val_acc": 0.8418079217274984,
+      "test_acc": 0.8378378550211588,
+      "test_std": 0.022067486340467436,
+      "hp": {
+        "order": 1,
+        "poly_init": "adjacency",
+        "lr": 0.023311293038343804,
+        "weight_decay": 0.004334000755463286,
+        "dropout": 0.670536438824564,
+        "hidden_dim": 32,
+        "depth": 2
+      }
+    },
+    "Swish-Poly(A)-pl": {
+      "val_acc": 0.8305084506670634,
+      "test_acc": 0.8198198278745016,
+      "test_std": 0.03370863156418552,
+      "hp": {
+        "order": 1,
+        "poly_init": "adjacency",
+        "lr": 0.020327729455490617,
+        "weight_decay": 0.002801364895054723,
+        "dropout": 0.20478409407303452,
+        "hidden_dim": 32,
+        "depth": 2
+      }
+    }
+  }
+}

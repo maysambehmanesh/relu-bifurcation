@@ -1,0 +1,142 @@
+{
+  "Gelu-Poly(A)-sh": {
+    "Ginibre (subcritical)": {
+      "hidden_dim": 64,
+      "dropout": 0.5277347296555303,
+      "lr": 0.07874965531292737,
+      "weight_decay": 0.00022587093012937123,
+      "depth": 3,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (critical)": {
+      "hidden_dim": 64,
+      "dropout": 0.5277347296555303,
+      "lr": 0.07874965531292737,
+      "weight_decay": 0.00022587093012937123,
+      "depth": 3,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (supercritical)": {
+      "hidden_dim": 64,
+      "dropout": 0.5277347296555303,
+      "lr": 0.07874965531292737,
+      "weight_decay": 0.00022587093012937123,
+      "depth": 3,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    }
+  },
+  "Gelu-Poly(A)-pl": {
+    "Ginibre (subcritical)": {
+      "hidden_dim": 256,
+      "dropout": 0.4396383372068501,
+      "lr": 0.0028705955104584256,
+      "weight_decay": 0.0002613616912015903,
+      "depth": 4,
+      "poly_k": 1,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (critical)": {
+      "hidden_dim": 256,
+      "dropout": 0.4396383372068501,
+      "lr": 0.0028705955104584256,
+      "weight_decay": 0.0002613616912015903,
+      "depth": 4,
+      "poly_k": 1,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (supercritical)": {
+      "hidden_dim": 256,
+      "dropout": 0.4396383372068501,
+      "lr": 0.0028705955104584256,
+      "weight_decay": 0.0002613616912015903,
+      "depth": 4,
+      "poly_k": 1,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    }
+  },
+  "Swish-Poly(A)-sh": {
+    "Ginibre (subcritical)": {
+      "hidden_dim": 32,
+      "dropout": 0.3178031963081397,
+      "lr": 0.004067814061603319,
+      "weight_decay": 1.9287429122619814e-05,
+      "depth": 4,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (critical)": {
+      "hidden_dim": 32,
+      "dropout": 0.3178031963081397,
+      "lr": 0.004067814061603319,
+      "weight_decay": 1.9287429122619814e-05,
+      "depth": 4,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (supercritical)": {
+      "hidden_dim": 32,
+      "dropout": 0.3178031963081397,
+      "lr": 0.004067814061603319,
+      "weight_decay": 1.9287429122619814e-05,
+      "depth": 4,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    }
+  },
+  "Swish-Poly(A)-pl": {
+    "Ginibre (subcritical)": {
+      "hidden_dim": 256,
+      "dropout": 0.04470891418013308,
+      "lr": 0.050471202364641206,
+      "weight_decay": 0.00029170338179829695,
+      "depth": 3,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (critical)": {
+      "hidden_dim": 256,
+      "dropout": 0.04470891418013308,
+      "lr": 0.050471202364641206,
+      "weight_decay": 0.00029170338179829695,
+      "depth": 3,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    },
+    "Ginibre (supercritical)": {
+      "hidden_dim": 256,
+      "dropout": 0.04470891418013308,
+      "lr": 0.050471202364641206,
+      "weight_decay": 0.00029170338179829695,
+      "depth": 3,
+      "poly_k": 2,
+      "epochs": 2000,
+      "patience": 200,
+      "val_every": 20
+    }
+  }
+}
